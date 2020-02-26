@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: myappfe
-        image: mohanraz81/cart-frontend:1.0
+        image: saravanadurai/cart-frontend:1.0
         imagePullPolicy: Always
         ports:
         - containerPort: 80
